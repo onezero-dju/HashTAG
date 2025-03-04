@@ -1,0 +1,57 @@
+.diarypage {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.diarypage_body{
+    width: 70%;
+    height: 75%;
+    border-radius: 10;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    background:#F8F1E5;
+    transform:translate(-50%,-50%); /* translate(x축,y축) */
+    min-width: 500px;
+}
+
+.diarypage_body_title{
+    margin: 30px auto;
+    width: 90%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.diarypage_body_content {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 24px;
+    word-wrap: break-word;
+}
+
+.diarypage_body_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.diarypage_body_button > button {
+    background-color: #FFB468;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+.diarypage_body_button > button:last-child{
+    margin-right: 20px;
+}
+
+.diarypage_body_button > button > a{
+    color: #ffffff;
+}
